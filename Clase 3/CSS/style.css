@@ -1,0 +1,131 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Nav img{
+    height: 100%;
+    float: left;
+    display: block;
+    color: black;
+}
+
+.Nav{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 0.5% 1%;
+    overflow: hidden;
+    height: 4vh;
+    text-justify: center;
+    
+}
+
+.Nav a{
+height: 100%;
+float: left;
+ color: black;
+ display: block;
+ text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+ font-size: 17px;
+
+}
+.Nav button{
+   height: 100%;
+   float: right;
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   display: none;
+  
+}
+
+.Nav a:hover{
+    background-color: #ddd;
+    color: rgb(95, 142, 243);
+
+}
+
+.Banner{
+    margin: 0px 10%;
+    height: 100vh;
+}
+
+
+.Banner img{
+    width: 20vw;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .Nav {
+    background-color: rgb(128, 60, 238);
+  }
+  .Nav a {
+   display: none;
+  }
+  .Nav button{
+    display: block;
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-width: 600px){
+     .Nav {
+    background-color: rgb(6, 35, 61);
+  }
+  .Nav a{
+   display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+     .Nav {
+    background-color: rgb(170, 99, 67);
+  }
+  .Nav a{
+   display: block;
+   float: right;
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+     .Nav {
+    background-color: rgb(219, 64, 233);
+  }
+  .Nav a{
+   float: left;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .Nav {
+    background-color: rgb(56, 207, 218);
+    
+  }
+  .Banner{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+  }
+  .Banner .BannerInfo{
+    display: inline-block;
+   width: 40%;
+   
+  }
+  .Banner img{
+    display: inline-block;
+    width: 40%;
+    
+  }
+}

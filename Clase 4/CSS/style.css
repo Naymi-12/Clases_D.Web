@@ -1,0 +1,88 @@
+.card {
+ width: 20vw;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+ flex-flow: column nowrap;
+ background-color: rgb(114, 168, 238);
+ overflow: hidden;
+ border-radius: 10px;
+
+}
+.card img {
+ width: 100%;
+}
+
+#productos {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: center;
+ align-content: center;
+ gap: 50px 20px;
+ padding: 10vh 10px;
+
+}
+
+.card .info {
+margin: 20px;
+padding: 0px;
+
+}
+
+#Banner {
+    width: 200vh;
+    height: 30vh;
+    background-image: url("https://www.mascotahogar.com/Imagenes/dibujo-de-un-gato-como-wallpaper.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Banner h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#Banner2 {
+     display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: center;
+ align-content: center;
+ gap: 50px 20px;
+ padding: 10vh 10px;
+   
+}
+
+.contenedor{
+ width: 20vw;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ flex-flow: column nowrap;
+ overflow: hidden;
+ 
+
+}
+
+
+.inf1 {
+    width: 20vw;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ flex-flow: column nowrap;
+ overflow: hidden;
+ border-radius: 10px;
+
+}
